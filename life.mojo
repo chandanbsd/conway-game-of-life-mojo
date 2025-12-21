@@ -17,10 +17,26 @@ def main():
     ]
 
     print_grid(glider, rows, cols)
+
+@fieldwise_init
+struct GameOfLife(Copyable, Stringable):
+    var grid: List[List[Int]]
+
+    fn __str__():
+        return print_grid()
     
+    @staticmethod
+    fn generate_random_grid(self) -> Self:
+
+        random.seed()
+
+        newGrid: List[List[Int]] = []
+        return Self(newGrid^)
+        
 
 def print_grid(grid: List[List[Int]], rows: Int, cols: Int):
+    s:String=""
     for row in range(rows):
         for col in range(cols):
-            print('*' if grid[row][col] == 1 else ' ', end="")
-        print()
+            s += '*' if grid[row][col] == 1 else ' '
+        s+='\n'
