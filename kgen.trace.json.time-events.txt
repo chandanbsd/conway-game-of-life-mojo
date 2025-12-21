@@ -1,0 +1,232 @@
+Thread   Start(us)  B/E     Dur(us)  Name/Detail
+------  ----------  ---  ----------  ------------------------------
+   259      753853  BEG        1905  AnnotateKernels
+   259      755759  END        1905  AnnotateKernels
+   259      755762  BEG         404  VerifyKernels
+   259      756166  END         404  VerifyKernels
+   259      756167  BEG        3188  LowerSemanticCF
+   259      759355  END        3188  LowerSemanticCF
+   259      759357  BEG       31920  CheckLifetimes
+   259      760534  BEG           9  (A) SymbolTableAnalysis
+   259      760543  END           9  (A) SymbolTableAnalysis
+   259      791278  END       31920  CheckLifetimes
+   259  5619481760  BEG        1172  AnnotateKernels
+   259  5619482933  END        1172  AnnotateKernels
+   259  5619482933  BEG         237  VerifyKernels
+   259  5619483170  END         237  VerifyKernels
+   259  5619483171  BEG        2835  LowerSemanticCF
+   259  5619486006  END        2835  LowerSemanticCF
+   259  5619486007  BEG       28770  CheckLifetimes
+   259  5619486951  BEG           7  (A) SymbolTableAnalysis
+   259  5619486959  END           7  (A) SymbolTableAnalysis
+   259  5619514778  END       28770  CheckLifetimes
+   259  5620120344  BEG        1192  AnnotateKernels
+   259  5620121537  END        1192  AnnotateKernels
+   259  5620121537  BEG         224  VerifyKernels
+   259  5620121762  END         224  VerifyKernels
+   259  5620121762  BEG        2473  LowerSemanticCF
+   259  5620124236  END        2473  LowerSemanticCF
+   259  5620124236  BEG       28750  CheckLifetimes
+   259  5620125210  BEG           7  (A) SymbolTableAnalysis
+   259  5620125218  END           7  (A) SymbolTableAnalysis
+   259  5620152987  END       28750  CheckLifetimes
+   259  5628484971  BEG        1164  AnnotateKernels
+   259  5628486135  END        1164  AnnotateKernels
+   259  5628486136  BEG         227  VerifyKernels
+   259  5628486364  END         227  VerifyKernels
+   259  5628486364  BEG        2507  LowerSemanticCF
+   259  5628488871  END        2507  LowerSemanticCF
+   259  5628488872  BEG       27745  CheckLifetimes
+   259  5628489821  BEG           7  (A) SymbolTableAnalysis
+   259  5628489829  END           7  (A) SymbolTableAnalysis
+   259  5628516618  END       27745  CheckLifetimes
+   259  5629300161  BEG        1199  AnnotateKernels
+   259  5629301361  END        1199  AnnotateKernels
+   259  5629301361  BEG         235  VerifyKernels
+   259  5629301596  END         235  VerifyKernels
+   259  5629301596  BEG        2717  LowerSemanticCF
+   259  5629304314  END        2717  LowerSemanticCF
+   259  5629304317  BEG       31226  CheckLifetimes
+   259  5629305361  BEG           7  (A) SymbolTableAnalysis
+   259  5629305369  END           7  (A) SymbolTableAnalysis
+   259  5629335544  END       31226  CheckLifetimes
+   259  5630019179  BEG        1179  AnnotateKernels
+   259  5630020358  END        1179  AnnotateKernels
+   259  5630020359  BEG         234  VerifyKernels
+   259  5630020594  END         234  VerifyKernels
+   259  5630020594  BEG        2530  LowerSemanticCF
+   259  5630023124  END        2530  LowerSemanticCF
+   259  5630023125  BEG       29768  CheckLifetimes
+   259  5630024086  BEG           7  (A) SymbolTableAnalysis
+   259  5630024093  END           7  (A) SymbolTableAnalysis
+   259  5630052893  END       29768  CheckLifetimes
+   259  5630695834  BEG        1205  AnnotateKernels
+   259  5630697040  END        1205  AnnotateKernels
+   259  5630697040  BEG         233  VerifyKernels
+   259  5630697274  END         233  VerifyKernels
+   259  5630697274  BEG        2508  LowerSemanticCF
+   259  5630699782  END        2508  LowerSemanticCF
+   259  5630699783  BEG       28434  CheckLifetimes
+   259  5630700746  BEG           8  (A) SymbolTableAnalysis
+   259  5630700754  END           8  (A) SymbolTableAnalysis
+   259  5630728217  END       28434  CheckLifetimes
+   259  5631425931  BEG        1208  AnnotateKernels
+   259  5631427140  END        1208  AnnotateKernels
+   259  5631427141  BEG         274  VerifyKernels
+   259  5631427415  END         274  VerifyKernels
+   259  5631427416  BEG        2618  LowerSemanticCF
+   259  5631430034  END        2618  LowerSemanticCF
+   259  5631430036  BEG       27998  CheckLifetimes
+   259  5631431015  BEG           7  (A) SymbolTableAnalysis
+   259  5631431022  END           7  (A) SymbolTableAnalysis
+   259  5631458034  END       27998  CheckLifetimes
+   259  5632064934  BEG        1158  AnnotateKernels
+   259  5632066092  END        1158  AnnotateKernels
+   259  5632066092  BEG         228  VerifyKernels
+   259  5632066321  END         228  VerifyKernels
+   259  5632066321  BEG        2475  LowerSemanticCF
+   259  5632068797  END        2475  LowerSemanticCF
+   259  5632068798  BEG       28052  CheckLifetimes
+   259  5632069744  BEG           8  (A) SymbolTableAnalysis
+   259  5632069752  END           8  (A) SymbolTableAnalysis
+   259  5632096850  END       28052  CheckLifetimes
+   259  5633303259  BEG        1162  AnnotateKernels
+   259  5633304422  END        1162  AnnotateKernels
+   259  5633304422  BEG         225  VerifyKernels
+   259  5633304648  END         225  VerifyKernels
+   259  5633304648  BEG        2515  LowerSemanticCF
+   259  5633307163  END        2515  LowerSemanticCF
+   259  5633307164  BEG       40267  CheckLifetimes
+   259  5633308108  BEG           7  (A) SymbolTableAnalysis
+   259  5633308115  END           7  (A) SymbolTableAnalysis
+   259  5633347431  END       40267  CheckLifetimes
+   259  5635687139  BEG        1451  AnnotateKernels
+   259  5635688591  END        1451  AnnotateKernels
+   259  5635688592  BEG         262  VerifyKernels
+   259  5635688854  END         262  VerifyKernels
+   259  5635688854  BEG        2830  LowerSemanticCF
+   259  5635691685  END        2830  LowerSemanticCF
+   259  5635691686  BEG       31132  CheckLifetimes
+   259  5635692890  BEG           8  (A) SymbolTableAnalysis
+   259  5635692899  END           8  (A) SymbolTableAnalysis
+   259  5635722819  END       31132  CheckLifetimes
+   259  5636401305  BEG        1160  AnnotateKernels
+   259  5636402466  END        1160  AnnotateKernels
+   259  5636402466  BEG         225  VerifyKernels
+   259  5636402691  END         225  VerifyKernels
+   259  5636402691  BEG        2557  LowerSemanticCF
+   259  5636405249  END        2557  LowerSemanticCF
+   259  5636405250  BEG       35892  CheckLifetimes
+   259  5636406221  BEG           7  (A) SymbolTableAnalysis
+   259  5636406229  END           7  (A) SymbolTableAnalysis
+   259  5636441142  END       35892  CheckLifetimes
+   259  5637127743  BEG        1302  AnnotateKernels
+   259  5637129045  END        1302  AnnotateKernels
+   259  5637129046  BEG         230  VerifyKernels
+   259  5637129276  END         230  VerifyKernels
+   259  5637129277  BEG        2485  LowerSemanticCF
+   259  5637131762  END        2485  LowerSemanticCF
+   259  5637131763  BEG       28121  CheckLifetimes
+   259  5637132707  BEG           7  (A) SymbolTableAnalysis
+   259  5637132715  END           7  (A) SymbolTableAnalysis
+   259  5637159885  END       28121  CheckLifetimes
+   259  5637845058  BEG        1426  AnnotateKernels
+   259  5637846484  END        1426  AnnotateKernels
+   259  5637846485  BEG         248  VerifyKernels
+   259  5637846733  END         248  VerifyKernels
+   259  5637846734  BEG        2684  LowerSemanticCF
+   259  5637849418  END        2684  LowerSemanticCF
+   259  5637849419  BEG       28300  CheckLifetimes
+   259  5637850418  BEG           7  (A) SymbolTableAnalysis
+   259  5637850426  END           7  (A) SymbolTableAnalysis
+   259  5637877719  END       28300  CheckLifetimes
+   259  5639558359  BEG        1240  AnnotateKernels
+   259  5639559599  END        1240  AnnotateKernels
+   259  5639559600  BEG         238  VerifyKernels
+   259  5639559838  END         238  VerifyKernels
+   259  5639559838  BEG        2963  LowerSemanticCF
+   259  5639562801  END        2963  LowerSemanticCF
+   259  5639562804  BEG       29222  CheckLifetimes
+   259  5639563888  BEG           9  (A) SymbolTableAnalysis
+   259  5639563897  END           9  (A) SymbolTableAnalysis
+   259  5639592026  END       29222  CheckLifetimes
+   259  5641206875  BEG        1173  AnnotateKernels
+   259  5641208048  END        1173  AnnotateKernels
+   259  5641208049  BEG         224  VerifyKernels
+   259  5641208273  END         224  VerifyKernels
+   259  5641208273  BEG        2568  LowerSemanticCF
+   259  5641210842  END        2568  LowerSemanticCF
+   259  5641210843  BEG       28329  CheckLifetimes
+   259  5641211985  BEG           8  (A) SymbolTableAnalysis
+   259  5641211994  END           8  (A) SymbolTableAnalysis
+   259  5641239173  END       28329  CheckLifetimes
+   259  5648867569  BEG        1153  AnnotateKernels
+   259  5648868723  END        1153  AnnotateKernels
+   259  5648868723  BEG         227  VerifyKernels
+   259  5648868950  END         227  VerifyKernels
+   259  5648868950  BEG        2486  LowerSemanticCF
+   259  5648871437  END        2486  LowerSemanticCF
+   259  5648871438  BEG       28492  CheckLifetimes
+   259  5648872397  BEG           8  (A) SymbolTableAnalysis
+   259  5648872406  END           8  (A) SymbolTableAnalysis
+   259  5648899930  END       28492  CheckLifetimes
+   259  5895180453  BEG        1173  AnnotateKernels
+   259  5895181626  END        1173  AnnotateKernels
+   259  5895181626  BEG         227  VerifyKernels
+   259  5895181854  END         227  VerifyKernels
+   259  5895181854  BEG        4242  LowerSemanticCF
+   259  5895186096  END        4242  LowerSemanticCF
+   259  5895186102  BEG       33107  CheckLifetimes
+   259  5895188693  BEG          12  (A) SymbolTableAnalysis
+   259  5895188706  END          12  (A) SymbolTableAnalysis
+   259  5895219210  END       33107  CheckLifetimes
+   259  5909747147  BEG        1206  AnnotateKernels
+   259  5909748353  END        1206  AnnotateKernels
+   259  5909748354  BEG         234  VerifyKernels
+   259  5909748589  END         234  VerifyKernels
+   259  5909748589  BEG        2762  LowerSemanticCF
+   259  5909751351  END        2762  LowerSemanticCF
+   259  5909751354  BEG       29970  CheckLifetimes
+   259  5909752633  BEG           8  (A) SymbolTableAnalysis
+   259  5909752642  END           8  (A) SymbolTableAnalysis
+   259  5909781324  END       29970  CheckLifetimes
+   259  5915565106  BEG        1142  AnnotateKernels
+   259  5915566248  END        1142  AnnotateKernels
+   259  5915566248  BEG         224  VerifyKernels
+   259  5915566473  END         224  VerifyKernels
+   259  5915566473  BEG        2719  LowerSemanticCF
+   259  5915569192  END        2719  LowerSemanticCF
+   259  5915569193  BEG       28122  CheckLifetimes
+   259  5915570215  BEG           7  (A) SymbolTableAnalysis
+   259  5915570223  END           7  (A) SymbolTableAnalysis
+   259  5915597316  END       28122  CheckLifetimes
+   259  5921799077  BEG        1207  AnnotateKernels
+   259  5921800284  END        1207  AnnotateKernels
+   259  5921800285  BEG         273  VerifyKernels
+   259  5921800558  END         273  VerifyKernels
+   259  5921800560  BEG        2698  LowerSemanticCF
+   259  5921803258  END        2698  LowerSemanticCF
+   259  5921803259  BEG       28065  CheckLifetimes
+   259  5921804263  BEG           8  (A) SymbolTableAnalysis
+   259  5921804271  END           8  (A) SymbolTableAnalysis
+   259  5921831324  END       28065  CheckLifetimes
+   259  5922454424  BEG        1133  AnnotateKernels
+   259  5922455558  END        1133  AnnotateKernels
+   259  5922455558  BEG         225  VerifyKernels
+   259  5922455783  END         225  VerifyKernels
+   259  5922455784  BEG        2526  LowerSemanticCF
+   259  5922458310  END        2526  LowerSemanticCF
+   259  5922458311  BEG       28655  CheckLifetimes
+   259  5922459288  BEG           7  (A) SymbolTableAnalysis
+   259  5922459296  END           7  (A) SymbolTableAnalysis
+   259  5922486966  END       28655  CheckLifetimes
+   259  5923123621  BEG        2257  AnnotateKernels
+   259  5923125879  END        2257  AnnotateKernels
+   259  5923125882  BEG         680  VerifyKernels
+   259  5923126562  END         680  VerifyKernels
+   259  5923126564  BEG        3930  LowerSemanticCF
+   259  5923130495  END        3930  LowerSemanticCF
+   259  5923130497  BEG       32042  CheckLifetimes
+   259  5923131694  BEG           8  (A) SymbolTableAnalysis
+   259  5923131702  END           8  (A) SymbolTableAnalysis
+   259  5923162540  END       32042  CheckLifetimes
