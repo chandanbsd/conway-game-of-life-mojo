@@ -12,14 +12,18 @@ def main():
 
 struct GameOfLife(Copyable, Stringable):
     var grid: List[List[Int]]
+    var row_count: Int
+    var col_count: Int
 
     fn __str__(self) -> String:
         try:
-            return print_grid(self.grid)
+            return self.print_grid()
         except Exception:
             return "Error generating grid string: "
     
     fn __init__(out self, rows:Int, cols:Int):
+        row_count = rows
+        col_count = cols
         random.seed()
         newGrid: List[List[Int]] = []
         for row in range(rows):
@@ -29,12 +33,13 @@ struct GameOfLife(Copyable, Stringable):
         self.grid = newGrid^
         
 
-def print_grid(grid: List[List[Int]]) -> String:
-    s:String=""
-    rows = len(grid)
-    cols = len(grid[0])
-    for row in range(rows):
-        for col in range(cols):
-            s += '*' if grid[row][col] == 1 else '-'
-        s+='\n'
-    return s
+    fn print_grid(self) -> String:
+        s:String=""
+        for row in range(self.row_count):
+            for col in range(self.col_count):
+                s += '*' if self.grid[row][col] == 1 else '-'
+            s+='\n'
+        return s
+
+    fn evolve(self):
+        next_generation = List[][]
